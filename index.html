@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football</title>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-------------------------- Team 1 ----------------------->
+                
+                <img src="./img/logo1.png" alt="Team 1 Logo" height="100px" width="100px" class="logos">
+                <span class="name" id="team-1-name"></span>
+                
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="col"><img id="team-1-img-1" src="./img/white.png"  alt="circle" class= "status-1" ></span>
+                    <span class="col"><img id="team-1-img-2" src="./img/white.png"  alt="circle" class= "status-1" ></span>
+                    <span class="col"><img id="team-1-img-3" src="./img/white.png"  alt="circle" class= "status-1" ></span>
+                    <span class="col"><img id="team-1-img-4" src="./img/white.png"  alt="circle" class= "status-1" ></span>
+                    <span class="col"><img id="team-1-img-5" src="./img/white.png"  alt="circle" class= "status-1" ></span>            
+                </div>
+
+
+                
+            </div>
+
+   <!-------------------------- Team Score ----------------------->
+
+    <div class="col">
+        <div class="row score">
+        <span  id="team-1-score"></span>
+        <span >-</span>
+        <span  id="team-2-score"></span>
+        </div>
+
+    </div>
+    <!-------------------------- Team 2 ----------------------->
+
+    <div class="col">
+                <!-------------------------- Team 1 ----------------------->
+                
+                <img src="./img/logo2.png" alt="Team 2 Logo" height="100px" width="100px" class="logos">
+                <span class="name" id="team-2-name"></span>
+                
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="col" ><img src="./img/white.png" id="team-2-img-1" alt="circle" class= "status-1" ></span>
+                    <span class="col" ><img src="./img/white.png" id="team-2-img-2" alt="circle" class= "status-1" ></span>
+                    <span class="col" ><img src="./img/white.png" id="team-2-img-3" alt="circle" class= "status-1" ></span>
+                    <span class="col" ><img src="./img/white.png" id="team-2-img-4" alt="circle" class= "status-1" ></span>
+                    <span class="col" ><img src="./img/white.png" id="team-2-img-5" alt="circle" class= "status-1" ></span>            
+                </div>
+            
+            </div>
+</div>
+   <!-------------------------- Button----------------------->
+    <div class="row">
+        <button id="shoot" onclick="ButtonClick()"></button>
+    </div>
+
+    <!-------------------------- Result ----------------------->
+        <div class="row " id="result">
+            <h1 id="results">Team won</h1>   
+
+        
+        </div>
+     
+    </div>
+    
+<script src="app1.js"></script>
+</body>
+</html>

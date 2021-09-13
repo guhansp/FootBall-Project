@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    background: linear-gradient(to bottom right, purple ,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    background: linear-gradient(to bottom right, #9014FE,#a34ca3);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+    align-self: center;
+
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.col
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container > .row
+{
+    justify-content: space-evenly;
+    width: 100%;
+
+    
+
+}
+h1
+{
+    color: black;
+}
+.status-1
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;  
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.logos
+{
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+
+.name
+{
+    color: white;
+    margin : 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+#shoot
+{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    font-weight:bolder;
+    color: black;
+    padding: 9px;
+    
+}
+
+#shoot:hover
+{
+    box-shadow: 0 0 5px 5px black;
+}
+
+.score{
+    margin: -50px 0 0;
+    
+    
+}
+
+.score>span
+{
+    margin:0 5px;
+    color: white;    
+    font-size: 20px;    
+    font-weight: bolder;
+}
+
+#result
+{
+    margin-top: 10px;
+    background: linear-gradient(to bottom right, #9014FE,white);
+    text-align: center;  
+    border-style: solid;
+    border: 2px black;  
+    display: inline; 
+    
+    text-transform: uppercase;
+
+    visibility: hidden;
+     
+    
+    
+}
+
+#results
+{
+    color: white;
+}
